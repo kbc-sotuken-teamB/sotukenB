@@ -246,7 +246,6 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\GameTemplate\k2EngineLow\online\SyncOnlineTwoPlayerMatchEngine.cpp" />
     <ClCompile Include="gameObject\Gameobjectmanager.cpp" />
     <ClCompile Include="gameObject\IGameObject.cpp" />
     <ClCompile Include="graphics\Animation.cpp" />
