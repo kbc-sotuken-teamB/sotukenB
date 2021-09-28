@@ -246,7 +246,6 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\GameTemplate\k2EngineLow\online\SyncOnlineTwoPlayerMatchEngine.cpp" />
     <ClCompile Include="gameObject\Gameobjectmanager.cpp" />
     <ClCompile Include="gameObject\IGameObject.cpp" />
     <ClCompile Include="graphics\Animation.cpp" />
@@ -321,7 +320,6 @@
     <ClCompile Include="tkFile\TksFile.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\GameTemplate\k2EngineLow\online\SyncOnlineTwoPlayerMatchEngine.h" />
     <ClInclude Include="..\..\..\GameTemplate\k2EngineLow\time\FPSLimitter.h" />
     <ClInclude Include="dbg\MyAssert.h" />
     <ClInclude Include="dbg\MyLog.h" />
