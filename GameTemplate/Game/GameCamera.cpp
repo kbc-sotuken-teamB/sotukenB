@@ -17,7 +17,7 @@ bool GameCamera::Start()
 	g_camera3D->SetTarget(m_target);	 //注視点の初期化
 	g_camera3D->SetFar(10000.0f);		 //遠平面の初期化
 	g_camera3D->SetNear(1.0f);			 //近平面の初期化
-
+	
 	return true;
 }
 
@@ -25,8 +25,6 @@ void GameCamera::Update()
 {
 	g_camera3D->SetPosition(m_position); //座標の更新
 	g_camera3D->SetTarget(m_target);	 //注視点の更新
-	g_camera3D->SetFar(10000.0f);		 //遠平面の更新
-	g_camera3D->SetNear(1.0f);			 //近平面の更新
 }
 
 void GameCamera::MathMove()

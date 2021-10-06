@@ -1,4 +1,5 @@
 #pragma once
+class Player;
 class GameCamera : public IGameObject
 {
 public:
@@ -23,5 +24,6 @@ private:
 	Vector3 m_position = Vector3::Zero;			//視点
 	Vector3 m_target = Vector3::One;			//注視点
 	Quaternion m_rot = Quaternion::Identity;	//回転率
+	Player* Player[4] = {};				//プレイヤーのインスタンス
 };
 
